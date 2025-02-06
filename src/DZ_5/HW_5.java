@@ -16,17 +16,13 @@ public class HW_5 {
         System.out.println("Task 2");
         int clientDeviceYear = 2012;
         clientOS = IOS;
+        System.out.print("Установите ");
+        if (clientDeviceYear < 2015) {
+            System.out.print("облегчённую ");
+        }
         if (clientOS == IOS) {
-            System.out.print("Установите ");
-            if (clientDeviceYear < 2015) {
-                System.out.print("облегчённую ");
-            }
             System.out.println("версию приложения для IOS по ссылке");
         } else if (clientOS == ANDROID) {
-            System.out.print("Установите ");
-            if (clientDeviceYear < 2015) {
-                System.out.print("облегчённую ");
-            }
             System.out.println("версию приложения для ANDROID по ссылке");
         }
 
