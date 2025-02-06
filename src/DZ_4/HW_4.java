@@ -14,11 +14,9 @@ public class HW_4 {
         double temperature = 5;
         if (temperature < 5) {
             System.out.println("На улице холодно, нужно надёть шапку");
-        }
-        if (temperature > 5) {
+        } else if (temperature > 5) {
             System.out.println("Сегодня тепло, можно идти без шапки");
-        }
-        if (temperature == 5) {
+        } else {
             System.out.println("Не бывает снега в ноябре");
         }
         // В условии, видимо, учли, что за всю жизнь продолжительность времени,
