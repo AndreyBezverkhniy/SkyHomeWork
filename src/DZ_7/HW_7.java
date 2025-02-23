@@ -9,8 +9,9 @@ public class HW_7 {
             month++;
             total = total + total / 100;
             total += 15_000;
+            System.out.println("Месяц " + month + ", сумма накомлений равне " + total + " рублей");
         }
-        System.out.println("Месяц " + month + ", сумма накомлений равне " + total + " рублей");
+        System.out.println("Месяцев требуется: "+ month);
 
         System.out.println("Task 2");
         int number = 1;
