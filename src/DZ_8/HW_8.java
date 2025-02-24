@@ -66,7 +66,7 @@ public class HW_8 {
 
         System.out.println("Task 4");
         for (int i = 0; i < intArr.length; i++) {
-            if(intArr[i]%2==1){
+            if (intArr[i] % 2 == 1) {
                 intArr[i]++;
             }
         }
