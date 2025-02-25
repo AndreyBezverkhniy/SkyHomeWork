@@ -1,7 +1,5 @@
 package DZ_9;
 
-import java.util.Arrays;
-
 public class HW_9 {
     public static void main(String[] args) {
         System.out.println("Task 1");
@@ -16,10 +14,10 @@ public class HW_9 {
         int min = costs[0];
         int max = costs[0];
         for (int element : costs) {
-            if (min < element) {
+            if (min > element) {
                 min = element;
             }
-            if (max > element) {
+            if (max < element) {
                 max = element;
             }
         }
