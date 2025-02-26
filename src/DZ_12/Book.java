@@ -1,8 +1,8 @@
 package DZ_12;
 
 public class Book {
-    private String name;
-    private Author author;
+    private final String name;
+    private final Author author;
     private int year;
 
     Book(String name, Author author, int year) {
