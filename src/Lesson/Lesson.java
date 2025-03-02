@@ -1,21 +1,16 @@
 package Lesson;
 
+import java.util.Arrays;
+
 class Lesson {
     public static void printSeparator() {
         System.out.println("========");
         System.out.println("--------");
     }
     public static void main(String[] args) {
-        String str = "123";
-        String str2 = "123";
-        System.out.println(str == str2);
-        printSeparator();
-        for (int i = 0; i < 5; i++) {
-            System.out.println(i);
-            if ((i+1)%2==0) {
-                printSeparator();
-            }
-        }
-        printSeparator();
+        MyClass mc = new MyClass(1, 2);
+        System.out.println("mc = " + mc);
+        int[] arr = {1, 2, 3};
+        System.out.println(Arrays.toString(arr));
     }
 }
