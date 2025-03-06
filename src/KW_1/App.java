@@ -402,6 +402,9 @@ public class App {
     }
 
     public static void main(String[] args) {
+
+        // Part 1
+
         initEmployees();
         System.out.println();
 
@@ -422,6 +425,10 @@ public class App {
 
         printEmployeesFIO();
         System.out.println();
+
+
+
+        // Part 2
 
         indexSalaries(10);
         System.out.println();
@@ -449,5 +456,11 @@ public class App {
 
         printEmployeesWithSalaryNotLessThan(25000);
         System.out.println();
+
+
+
+        // Part 3
+
+
     }
 }
