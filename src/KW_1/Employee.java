@@ -5,14 +5,14 @@ import java.util.Objects;
 public class Employee {
     private static int newId;
     private int id;
-    private String firstName;
-    private String middleName;
-    private String lastName;
+    private final String firstName;
+    private final String middleName;
+    private final String lastName;
     private String otdel;
     private int salary;
 
     public Employee(String firstName, String middleName, String lastName, String otdel, int salary) {
-        id=newId;
+        id = newId;
         newId++;
         this.firstName = firstName;
         this.middleName = middleName;
